@@ -19,7 +19,8 @@
         <activity android:name=".ConnectThreeActivitiy" />
         <activity android:name=".VideoView" />
         <activity android:name=".AudioActivity" />
-        <activity android:name=".DialogActivity"></activity>
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".SimpleMenuActivity"></activity>
     </application>
 
 </manifest>
