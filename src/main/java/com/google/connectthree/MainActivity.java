@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
                         return false;
                     }
                 });
+        menu.add("Dialog").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem) {
+                startActivity(new Intent(MainActivity.this, DialogActivity.class));
+                return false;
+            }
+        });
         return super.onCreateOptionsMenu(menu);
     }
 }

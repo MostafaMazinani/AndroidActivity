@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".ConnectThreeActivitiy" />
         <activity android:name=".VideoView" />
-        <activity android:name=".AudioActivity"></activity>
+        <activity android:name=".AudioActivity" />
+        <activity android:name=".DialogActivity"></activity>
     </application>
 
 </manifest>
