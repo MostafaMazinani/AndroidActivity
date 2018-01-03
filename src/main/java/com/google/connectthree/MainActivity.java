@@ -55,10 +55,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         SubMenu listMenu = menu.addSubMenu("Item List");
-        listMenu.add("Simple Menu").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+        listMenu.add("Simple").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
                 startActivity(new Intent(MainActivity.this, SimpleMenuActivity.class));
+                return false;
+            }
+        });
+        listMenu.add("Custom").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem) {
+                startActivity(new Intent(MainActivity.this, CustomListActivity.class));
                 return false;
             }
         });
