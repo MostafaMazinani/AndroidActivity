@@ -42,4 +42,7 @@ public class Contact {
     public String toString() {
         return name;
     }
+    public boolean equal() {
+	     retun true;
+   }
 }
