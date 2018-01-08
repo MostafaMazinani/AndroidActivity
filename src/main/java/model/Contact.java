@@ -6,6 +6,8 @@ public class Contact {
     // id of image profile
     private int id;
 
+    // default constructor
+    public Contact() {}
     public Contact(String name, String phoneNumber, int id) {
         this.name = name;
         this.phoneNumber = phoneNumber;
@@ -40,4 +42,8 @@ public class Contact {
     public String toString() {
         return name;
     }
+
+  public String toString() {
+  	return name + " : "+phoneNumber;
+  }	  
 }
