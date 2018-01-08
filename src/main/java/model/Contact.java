@@ -42,8 +42,7 @@ public class Contact {
     public String toString() {
         return name;
     }
-
-  public String toString() {
-  	return name + " : "+phoneNumber;
-  }	  
+    public boolean equal() {
+	     retun true;
+   }
 }
